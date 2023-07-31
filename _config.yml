@@ -1,0 +1,11 @@
+# Configurações gerais
+title: Artes Crew
+theme: minima
+
+# Configurações para o SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Configuração do diretório de saída
+destination: _site
