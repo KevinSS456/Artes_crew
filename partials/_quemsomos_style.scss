@@ -1,0 +1,26 @@
+.are{
+    margin-top: 6vh;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: 1;
+    gap: 10vh;
+}
+.text{
+    max-width: 50vh;
+    text-align: justify;
+    p{
+        margin: 10px 0;
+        line-height: 200%;
+        font-size: medium;
+    }
+}
+.mission{
+    margin-top: 30vh;
+    margin-bottom: 20vh;
+    img{
+        width: 60vh;
+    }
+}

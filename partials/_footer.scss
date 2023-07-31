@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: 5vh;
+    flex-direction: column;
+    div{
+        margin-bottom: 20px;
+    }
+    i{
+        color: white;
+        margin: 8px;
+    }
+}
