@@ -1,0 +1,51 @@
+.tell_us::before{
+    display: block;
+    position: absolute;
+    background-image: url("../assets/image-contact/background_contact.jpeg");
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    content: "";
+    opacity: 0.6;
+}
+.tell_us{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    padding: 10vh;
+    h1{
+        font-size: 50px;
+        margin: 2vh;
+    }
+ 
+}
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    width: 70vh;
+    border-radius: 30px;
+    background-color: aliceblue;
+    padding: 6vh;
+    margin: 8vh 0;
+    h2{
+        margin: 1vh 0;
+        font-size: 4vh;
+    }
+    i{
+        margin: 3vh;
+        color: $contact_us;
+    }
+}

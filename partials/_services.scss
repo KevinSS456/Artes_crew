@@ -1,0 +1,58 @@
+.container-services{
+
+    background-color: rgb(243, 227, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    h1{
+        text-align: center;
+        margin: 8vh 0;
+        font-weight: 800;
+        color: $contact_us;
+        font-size: 3vw;
+    }
+    p{
+        font-size: large;
+        line-height: 200%;
+    }
+}
+.mother{
+    margin: 10vh 0;
+    width: 60%;
+}
+.sequence{
+    display: flex;
+    margin: 5vw;
+    gap: 2vh;
+    p{
+        font-size: 1.4vw;
+        margin: 1.5vw 0 5vw 0;
+    }
+
+}
+.steps{
+    img{
+    height: 31vw;
+    width: auto;
+    }
+}
+.container-text{
+    width: 100%;
+    display: flex;
+    padding: 6vw 0;
+    background-color: #f1dbff;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    div{
+        display: flex;
+        width: 55%;
+        height: 7vw;
+        align-items: center;
+        text-align: center;
+        border: 3px #e5c8f7 solid;
+        border-right-width: 0;
+        border-left-width: 0;
+    }
+}

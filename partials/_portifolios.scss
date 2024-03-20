@@ -1,0 +1,30 @@
+.container-westyle{
+    padding: 3vw 3vw;
+    display: flex;
+    justify-content: center;
+    div{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    p{
+        text-align: justify;
+        margin-bottom: 5vw;
+    }
+    ul{ 
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: 3vw;
+        height: 40vw;
+
+    }
+    li{
+        width: 30%;
+        margin: 3vw;
+        height: 5vw;
+        font-size: 80%;
+        text-align: justify;
+    }
+}

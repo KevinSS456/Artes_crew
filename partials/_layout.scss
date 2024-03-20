@@ -1,6 +1,5 @@
 .container{
     margin: 0 auto;
-    max-width: 1440px;
 }
 // BG home
 
@@ -108,9 +107,17 @@
     }
 }
 .call-content div{
-    flex: 1;
     align-items: flex-start;
 }
+.call-text{
+    max-width: 50vh;
+}
+@media screen  and (max-width: 1500px){
+    .call-text{
+        max-width: 60vh;
+    }
+}
+
 
 //-------Quality---------------
 
